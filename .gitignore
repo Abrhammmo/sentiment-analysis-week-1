@@ -1,2 +1,7 @@
 Data
 .venv
+cleaned
+sentiment_analysis.ipynb
+stock_market.ipynb
+stock_sentiment_analysis.ipynb
+notebooks/output

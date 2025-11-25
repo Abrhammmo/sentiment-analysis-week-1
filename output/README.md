@@ -1,4 +1,5 @@
 ## Stock Sentiment Analysis Project
+
 ** Overview of this output folder 
 
 This project analyzes the relationship between news sentiment and stock returns for major tech companies (AAPL, AMZN, GOOG, META, MSFT, NVDA). It calculates daily sentiment scores from cleaned analyst headlines, merges them with stock price data, and explores correlations using statistical and visual analyses.

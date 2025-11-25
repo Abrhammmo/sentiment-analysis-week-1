@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            next_return   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                    0.5393
+Date:                Tue, 25 Nov 2025   Prob (F-statistic):              0.463
+Time:                        15:42:09   Log-Likelihood:                 32579.
+No. Observations:               13115   AIC:                        -6.514e+04
+Df Residuals:                   13107   BIC:                        -6.508e+04
+Df Model:                           7                                         
+Covariance Type:                  HC1                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const         -1.111e+10   1.51e+10     -0.734      0.463   -4.08e+10    1.85e+10
+mean_ensemble    -0.0002      0.002     -0.113      0.910      -0.004       0.004
+T_AAPL         1.111e+10   1.51e+10      0.734      0.463   -1.85e+10    4.08e+10
+T_AMZN         1.111e+10   1.51e+10      0.734      0.463   -1.85e+10    4.08e+10
+T_GOOG         1.111e+10   1.51e+10      0.734      0.463   -1.85e+10    4.08e+10
+T_META         1.111e+10   1.51e+10      0.734      0.463   -1.85e+10    4.08e+10
+T_MSFT         1.111e+10   1.51e+10      0.734      0.463   -1.85e+10    4.08e+10
+T_NVDA         1.111e+10   1.51e+10      0.734      0.463   -1.85e+10    4.08e+10
+==============================================================================
+Omnibus:                     3670.547   Durbin-Watson:                   2.144
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           147628.070
+Skew:                           0.629   Prob(JB):                         0.00
+Kurtosis:                      19.388   Cond. No.                     5.44e+14
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The smallest eigenvalue is 5.19e-26. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
